@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MatchMasters</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,500;0,9..40,1000;1,9..40,700&family=Open+Sans:wght@300;500&family=PT+Sans:wght@400;700&display=swap');
+        body{
+            font-family: "DM Sans";
+        }
+        .image-hide-if-mobile{
+            display: block;
+        }
+        .margin-lower-container{
+            margin-top: 130px;
+        }
+        .p-mobile-smaller{
+            width: 50%;
+            margin: 75px
+        }
+        @media screen and (max-width: 1000px) {
+            .image-hide-if-mobile{
+                display: none;
+            }
+            .margin-lower-container{
+                margin-top: 50px;
+            }
+            .p-mobile-smaller{
+                width: 80%;
+                font-size: 16px;
+                margin-top: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div style="border-bottom: 1px solid rgb(200, 200, 200)">
+        <img src="/static/heart.webp" style="width: 25px" alt="">
+    </div>
+    <center style="margin: auto; width: fit-content; height: fit-content; top: 0; left: 0; right: 0; bottom: 0; position: absolute">
+        <img style="width: 500px; border-radius: 15px" src="/static/logo.png" alt="">
+        <h1 style="font-size: 4rem; font-weight: 1000">Let us handle the tough stuff. <br> So, you can focus on what matters.</h1>
+    </center>
+    <center style="width: 100%; font-weight: 700; font-size: 20px; margin-top: 100vh">
+        <p style="width: 70%">Dating platforms are designed to keep you in the platform, not to find your dream girl. If you find love it is game over for them.</p>
+    </center>
+    <center style="width: 100%; font-size: 20px; margin-top: 50px">
+        <h1 style="width: 70%; font-size: 4rem">We know the secrets.</h1>
+    </center>
+    <div style="background-color: #3482e7; margin-left: 10%; border-radius: 15px; width: 80%; color: white; height: 250px; padding: 15px">
+        <span style="opacity: 0">Modular</span>
+        <p class="p-mobile-smaller" style="float: left; font-size: larger;">
+            Unlike similar services our team doesn't consist of dating "experts", instead we hire software engineers, data scientists and people with real strong backgrounds to crack the algorithm.
+        </p>
+        <img class="image-hide-if-mobile" src="/static/custom.gif" style="float: right; width: 250px" alt="">
+        <span style="opacity: 0">Modular</span>
+    </div>
+    <br>
+    <div style="color: white; background-color: #1d1d1f; margin-left: 10%; width: 30%; height: 250px; padding: 5%; border-radius: 15px; float: left">
+        <span style="opacity: 0">Modular</span>
+        <h1 class="margin-lower-container">
+            We will create one or optimize your existing profile.
+        </h1>
+    </div>
+    <div style="color: white; background-color: #fb4860; margin-left: 2%; width: 30%; height: 250px; padding: 5%; border-radius: 15px; float: left">
+        <span style="opacity: 0">Modular</span>
+        <h1 class="margin-lower-container">
+            And make do the swiping for you based on your criteria.
+        </h1>
+    </div>
+    <div style="color: #1d1d1f; background-color: white; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; margin-left: 10%; width: 72%; height: 250px; padding: 5%; border-radius: 15px; float: left; margin-top: 20px">
+        <span style="opacity: 0">Modular</span>
+        <h1 class="margin-lower-container">
+            We will handle the groundwork in all popular dating sites and do the swiping to match you with people. You will only have to keep the conversation going, with the help of our exprets.
+        </h1>
+    </div>
+    <br style="clear: both">
+    <center style="margin: 10%">
+        <h1 style="margin-top: 75px; font-size: 4rem">
+            Best Part Is: It is all free.
+        </h1>
+        <p>We are confident in our work. We only charge you per match.</p>
+        <br>
+        <form method="post" enctype="multipart/form-data">
+            <input name="email" type="text" placeholder="Email" style="margin-left: 25%; width: 40%; float: left; border-radius: 50px; padding: 20px; font-size: 1.5rem; border: 1px solid rgb(200, 200, 200); outline: none">
+            <input type="submit" style="margin-left: 1%; width: 10%; float: left; border-radius: 50px; padding: 20px; font-size: 1.5rem; border: none; background-color: #3482e7; color: white; min-width: fit-content" value="Sign Up">
+        </form>
+    </center>
+    <div style="margin-top: 100px; color: gray; border-top: 1px solid rgb(200, 200, 200); height: 75px; padding: 25px">
+        © MatchMasters, Inc.
+        <span style="float: right">contact@MatchMasters.net</span>
+    </div>
+</body>
+</html>
