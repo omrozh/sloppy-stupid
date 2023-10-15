@@ -135,9 +135,14 @@ def index():
                         registration_date=datetime.now())
         db.session.add(new_user)
         db.session.commit()
-        return flask.render_template("thanks_for_preregister.html")
+        return flask.redirect("/thanks")
 
     return flask.render_template("index.html")
+
+
+@app.route("/thanks")
+def thanks():
+    return flask.render_template("thanks_for_preregister.html")
 
 
 @app.route("/mobile", methods=["POST", "GET"])
